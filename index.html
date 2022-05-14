@@ -5,53 +5,140 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    <h1>Lizaveta Nikalayenka</h1>
-    <img src="me.jpeg">
+    <div class="wrapper">
+        <header class="header">
+            <div class="headerContainer">
+                    <div class="myphoto">
+                        <img src="me.jpeg" alt="myPhoto">
+                    </div>
+                    <div class="aboutMe">
+                        <div class="myName">
+                            <h1>Lizaveta<span> Nikalayenka</span></h1>
+                            <p>Junior front-end developer</p>
+                        </div>
+                            <div class="info">
+                                <ul>
+                                    <li class="location">
+                                        <img src="location.svg">
+                                        <p>location</p>
+                                        <a href="https://www.google.com/maps/place/Минск/@53.8843138,27.3131922,10z/data=!3m1!4b1!4m5!3m4!1s0x46dbcfd35b1e6ad3:0xb61b853ddb570d9!8m2!3d53.9006011!4d27.558972">Minsk<br>Belarus</a>
+                                    </li>
 
-    <h2>My contact info:</h2>
-    <ul>
-        <li>E-mail: liza.nikolaenko99@mail.ru</li>
-        <li>GitHub: <a href="https://github.com/Lisaaanik">lisaaanik</a></li>
-    </ul>
+                                    <li class="phone">
+                                        <img src="phone.svg">
+                                        <p>phone</p>
+                                        <a href="mailto:+375291772584">+375291772584</a>
+                                    </li>
 
-    <h2>About me</h2>
-    <p>I am a fifth-year student of the Minsk State Linguistic University.
-       I am studying in the specialty "Computational linguistics". I like constant development and progress, that's why I'm here.
-       It is important for me to gain knowledge in the field of front-end development in order to move in this direction further. The IT sphere is what really attracts me.</p>
+                                    <li class="mail">
+                                        <img src="email.svg">
+                                        <p>e-mail</p>
+                                        <a href="mailto:liza.nikolaenko99@mail.ru">liza.nikolaenko<br>99@mail.ru</a>
+                                    </li>
 
-    <h2>Skills</h2>
-    <ul>
-        <li>HTML/CSS</li>
-        <li>JS (Fundamentals)</li>
-        <li>GitHub</li>
-        <li>Photoshop</li>
-        <li>Figma (for web development)</li>
-    </ul>
+                                    <li class="github">
+                                        <img src="web.svg">
+                                        <p>github</p>
+                                        <a href="https://github.com/Lisaaanik">lisaaanik</a>
+                                    </li>
+                                </ul>
+                            </div>
+                    </div>
+            </div>
+        </header>
 
-    <h2>Education</h2>
-    <ul>
-        <li>Minsk State Linguistic University
-            <ul type="circle">
-                <li style="padding-top: 10px;">Faculty of French Language and Literature</li>
-            </ul>
-        </li>
-    </ul>
+        <main class="main">
+            <nav>
+                <ul>
+                    <li><a href="#aboutme">about me</a></li>
+                    <li><a href="#educ">education</a></li>
+                    <li><a href="#sk">skills</a></li>
+                    <li><a href="#lan">languages</a></li>
+                </ul>
+            </nav>
+            <div class="mainContainer">
+                <a name="aboutme"></a>
+                <div class="about">
+                    <div class="img1">
+                        <img src="aboutme.png" alt="about">
+                        <h2>about me</h2>
+                    </div>
+                    <div class="myBio"><p>My name is Liza Nikalayenka, I’m originally from Belarus. I’m great at time management, responsible and hardworking individual. I can do multiple task every day. I know how to set goals and achieve them. I like to study and eager to learn new skills. I’m not afraid to change my life.</p></div>
+                </div>
 
-    <h2>Languages</h2>
-    <ul>
-        <li>Russian- native speaker</li>
-        <li>Spanish- A1</li>
-        <li>English- B1</li>
-        <li>French- C1</li>
-    </ul>
+                <a name="educ"></a>
+                <div class="education">
+                    <div class="img2">
+                        <img src="education.png">
+                        <h2>education</h2>
+                    </div>
+                    <div class="educationInfo">
+                        <div class="mslu">
+                            <a href="https://www.mslu.by">Minsk State Linguistic University</a>
+                            <p class="year">2017-2022</p>
+                            <p class="prof">Faculty of Romance Languages, Teaching, Computational Linguistics</p>
+                        </div>
+                        <div class="itAcademy">
+                            <a href="https://www.it-academy.by">IT-Academy</a>
+                            <p class="year">2022 (ongoing)</p>
+                            <p class="prof">JS / FRONT-END COURSES</p>
+                        </div>
+                        <div class="rs">
+                            <a href="https://rs.school">RS School</a>
+                            <p class="year">2021 (ongoing)</p>
+                            <p class="prof">JS / FRONT-END COURSES</p>
+                        </div>
+                    </div>
+                </div>
 
-    <h2>Courses</h2>
-    <ul>
-        <li>JavaScript Manual on <a href="https://learn.javascript.ru" target="_blank">learn.javascript.ru</a>(in progress)</li>
-        <li>RS Schools Cource “JavaScript/Front-end. Stage 1” (in progress)</li>
-    </ul>
+                <a name="sk"></a>
+                <div class="skills">
+                    <div class="img3">
+                        <img src="skills.png">
+                        <h2>skills</h2>
+                    </div>
+                    <p class="skills2"> -Knowledge of HTML5, CSS3;<br>
+                        -Cross-platform and adaptive layout for the latest versions of browsers;<br>
+                        -Ability to work with the SASS preprocessor;<br>
+                        -Ability to apply Flexible Box Layout, Grid;<br>
+                        -Understanding of various layout methodologies: BEM, SMACSS;<br>
+                        -Basic knowledge of JavaScript;<br>
+                        -Ability to use version control systems, in particular Git.</p>
+                </div>
+
+                <a name="lan"></a>
+                <div class="language">
+                    <div class="img4">
+                        <img src="language.png">
+                        <h2 style="margin-left: 40px;
+                        font-family: Manrope;
+                        font-style: normal;
+                        font-weight: 800;
+                        font-size: 20px;
+                        line-height: 20px;
+                        letter-spacing: 0.2em;
+                        text-transform: uppercase;
+                        color: #1B2B37;">languages</h2>
+                    </div>
+                    <div class="lang">
+                        <ul>
+                            <li><span>French-</span> C1</li>
+                            <li><span>English-</span> B1</li>
+                            <li><span>Spanish-</span> A1</li>
+                            <li><span>Russian-</span> native</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="god">&copy;2022</div>
+        </footer>
+    </div>
 </body>
 </html>
