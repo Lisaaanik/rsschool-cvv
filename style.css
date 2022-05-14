@@ -1,0 +1,528 @@
+body {
+    font-family: 'Cabin', sans-serif;
+    background: #C0C0C0;
+    color: #505050;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0
+}
+
+.wrapper {
+    width: 1220px;
+    background: #f6f6f6;
+    font-size: 18px;
+    box-shadow: 0 0 10px #505050;
+    margin: 20px auto;
+    
+}
+
+/* HEADER */
+
+.header {
+    position: relative;
+    width: 1220px;
+    height: 393px;
+    left: 0px;
+    top: 0px;
+    background: url(bk2.png);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.headerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    position: relative;
+    width: 920px;
+    height: 243px;
+    left: 0px;
+    top: 76px;
+}
+
+.myphoto img {
+    position: static;
+    width: 270px;
+    height: 350px;
+    left: 0px;
+    top: 0px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 33px;
+}
+
+.aboutMe {
+    font-family: 'Karla', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 849px;
+    height: 218px;
+    left: 291px;
+    top: 12.5px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 33px;
+}
+
+.myName {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 450px;
+    height: 81px;
+    left: 0px;
+    top: 0px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+}
+
+.myName h1 {
+    position: static;
+    width: 650px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: left;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #E4F1F4;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: -36px 0px 0px 0px;
+}
+
+.myName h1 span {
+    font-weight: 200;
+}
+
+.myName p {
+    position: static;
+    width: 450px;
+    height: 25px;
+    left: 0px;
+    top: 56px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: left;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+
+.info ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: relative;
+    width: 849px;
+    height: 120px;
+    left: -17px;
+    top: 20px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 30px 0px;
+    list-style: none;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 20px;
+    position: static;
+    width: 183px;
+    height: 120px;
+    left: 0px;
+    top: 0px;
+    background: rgba(27, 43, 55, 0.7);
+    border-radius: 10px;
+    margin: 0px 15px;
+}
+
+.phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 20px;
+    position: static;
+    width: 197px;
+    height: 120px;
+    left: 198px;
+    top: 0px;
+    background: rgba(27, 43, 55, 0.7);
+    border-radius: 15px;
+    margin: 0px 15px;
+}
+
+.mail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 20px;
+    position: static;
+    width: 276px;
+    height: 120px;
+    left: 410px;
+    top: 0px;
+    background: rgba(27, 43, 55, 0.7);
+    border-radius: 15px;
+    margin: 0px 15px;
+}
+
+.github {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 20px;
+    position: static;
+    width: 148px;
+    height: 120px;
+    left: 701px;
+    top: 0px;
+    background: rgba(27, 43, 55, 0.7);
+    border-radius: 15px;
+    margin: 0px 15px;
+}
+
+ul li p {
+    position: relative;
+    width: 90px;
+    height: 18px;
+    top: 10px;
+    text-align: center;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.34em;
+    text-transform: uppercase;
+    color: #E4F1F4;
+    margin: 10px 0px;
+}
+
+ul li a {
+    position: static;
+    text-decoration: none;
+    text-align: center;
+    width: 108px;
+    height: 25px;
+    left: 20px;
+    top: 67px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
+
+/* MAIN */
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+nav {
+    position: relative;
+    width: 415px;
+    height: 1300px;
+    left: 0px;
+    top: 0px;
+    background:#FFE4C4;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 260px;
+    height: 420px;
+    right: 0px;
+    left: 33px;
+    top: 40px;
+}
+
+nav ul li {
+    margin-bottom: 30px;
+    list-style-type: none;
+}
+
+nav ul a {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.34em;
+    text-transform: uppercase;
+    color: #03121E;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position:relative;
+    width: 1630px;
+    height: 1300px;
+    left: 0px;
+    top: 0px;
+    background: #FFFAFA;
+}
+
+.about, .education, .skills, .language {
+    position: relative;
+    top: 50px;
+    left: 69px;
+    margin-bottom: 70px;
+}
+
+.img1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.img1 h2 {
+    margin-left: 40px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #1B2B37;
+}
+
+.img1 img {
+    width: 35px;
+    height: 35px;
+}
+
+.img2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.img2 h2 {
+    margin-left: 40px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #1B2B37;
+}
+
+.img2 img {
+    width: 35px;
+    height: 35px;
+}
+
+.img3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.img3 h2 {
+    margin-left: 40px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #1B2B37;
+}
+
+.img3 img {
+    width: 35px;
+    height: 35px;
+}
+
+.img4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.img4 img {
+    width: 35px;
+    height: 35px;
+}
+
+.myBio {
+    position: relative;
+    width: 763px;
+    height: 60px;
+    left: 75px;
+    top: 0px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: rgba(27, 43, 55, 0.7);
+}
+
+.educationInfo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.mslu {
+    margin-bottom: 40px;
+}
+
+.itAcademy {
+    margin-bottom: 30px;
+}
+
+.rs {
+    margin-bottom: -70px;
+}
+
+.educationInfo a {
+    position: relative;
+    width: 835px;
+    height: 30px;
+    left: 75px;
+    top: 15px;
+    font-family: Manrope;
+    text-decoration:none;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    color: #DEB887;
+}
+
+.educationInfo .year {
+    position: relative;
+    text-transform: uppercase;
+    width: 835px;
+    height: 15px;
+    left: 75px;
+    top: 10px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 15px;
+    color: rgba(27, 43, 55, 0.6);
+}
+
+.educationInfo .prof {
+    position: relative;
+    text-transform: uppercase;
+    width: 543px;
+    height: 19px;
+    left: 75px;
+    top: 10px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.skillWrapper {
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    justify-content: space-around;
+    margin-left: -13px ;
+}
+
+.skills2 {
+    position: relative;
+    width: 763px;
+    height: 60px;
+    left: 75px;
+    top: 0px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: rgba(27, 43, 55, 0.7);
+}
+
+.language {
+    top: 150px;
+}
+
+.lang {
+    position: relative;
+    width: 763px;
+    height: 60px;
+    left: 35px;
+    top: 0px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: rgba(27, 43, 55, 0.7);
+}
+
+.lang ul {
+    list-style-type: none;
+}
+
+/* FOOTER */
+
+.footer {
+    padding: 20px;
+    background: url(bk3.png)
+}
+
+.god {
+    text-align: center;
+    color: #fff;
+    line-height: 35px;
+}
