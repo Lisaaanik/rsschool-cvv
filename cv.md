@@ -1,7 +1,7 @@
 # Lizaveta Nikalayenka
 
 # My contact info:
-* **E-mail:** lizanikolaenko99@mail.ru
+* **E-mail:** liza.nikolaenko99@mail.ru
 * **GitHub:** [lisaaanik](https://github.com/Lisaaanik)
 
 # About me
